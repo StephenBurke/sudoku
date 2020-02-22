@@ -1,4 +1,7 @@
-print('Wecome to sudoku')
+#import cv2
+#import numpy as np
+
+
 SIZE = 9
 #sudoku problem
 #cells with value 0 are vacant cells
@@ -35,6 +38,7 @@ def number_unassigned(row, col):
                 return a
     a = [-1, -1, num_unassign]
     return a
+
 #function to check if we can put a
 #value in a paticular cell or not
 def is_safe(n, r, c):
